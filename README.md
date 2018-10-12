@@ -6,7 +6,7 @@ Write a python script to send e-mail to the users regarding the status of their 
 
 #solution
 
-TO run this script just copy all the files in a folder and run the finalproject.py file.(One must have python installed in their system)
+TO run this script just copy all the files in a folder and run the finalproject.py file.(One must have python and other necessary modules installed in their system)
 
 All the other files are supporting modules.
 
