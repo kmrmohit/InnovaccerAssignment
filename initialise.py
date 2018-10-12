@@ -1,6 +1,9 @@
 import sql_ops as sql
 
 #this method is for interaction with the user and record its responses
+#my database had two tables:appusers and linker
+#appusers had two columns:user_id and tvseries
+#linker had two columns:user_id and email
 def takeuserdata(mycursor,mydb):
     print("Are you a new user?y/n")
     c = input()
