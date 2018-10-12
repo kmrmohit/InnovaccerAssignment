@@ -1,2 +1,2 @@
-EMAILADDRESS = "kcallingkarthi@gmail.com"
-PASSWORD = "1234>>>>1234"
+EMAILADDRESS = "abc@gmail.com" #sender's email address
+PASSWORD = "xyz" #sender's email-account password
