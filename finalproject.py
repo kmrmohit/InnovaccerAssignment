@@ -11,7 +11,9 @@ import sql_ops as sql
 sublinks = ["/list/ls021409819/","/list/ls051600015/?st_dt=&mode=detail&sort=release_date,desc&page=1","/search/title?languages=hi&title_type=tv_series&page=1&sort=release_date,desc&view=advanced&ref_=adv_nxt"]
 baselink = "https://www.imdb.com"
 
-
+#my database had two tables:appusers and linker
+#appusers had two columns:user_id and tvseries
+#linker had two columns:user_id and email
 mydb = connect_to_db.connect()
 mycursor = mydb.cursor()
 initialise.takeuserdata(mycursor,mydb)
