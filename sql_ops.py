@@ -1,6 +1,9 @@
 #this method inserts data into the mysql database
 #data is a tuple that has two values in it.First is the user_id and second is the name of the tvseries liked by the user
 #any insertion and deletion takes place through explicit call through mysql commands
+#my database had two tables:appusers and linker
+#appusers had two columns:user_id and tvseries
+#linker had two columns:user_id and email
 def insert_to_db(mycursor,mydb,data):
     sqlformulains = "INSERT INTO appusers (user_id,tvseries) VALUES (%s,%s)"
     mycursor.execute(sqlformulains,data)
