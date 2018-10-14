@@ -1,7 +1,8 @@
 # InnovaccerAssignment
-SDE-Intern(Platform) assignment project for Innovacer.
+SDE-Intern(Platform) assignment project for Innovaccer.
 
 #problem-statement
+
 Write a python script to send e-mail to the users regarding the status of their favourite tv series to prevent them from spoilers
 
 #solution
