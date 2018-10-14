@@ -14,6 +14,10 @@ baselink = "https://www.imdb.com"
 #my database had two tables:appusers and linker
 #appusers had two columns:user_id and tvseries
 #linker had two columns:user_id and email
+#tables can be created using the following two python commands after initializing the cursor:
+#mycursor.execute("CREATE TABLE appusers(user_id varchar(255),tvseries varchar(255)")
+#mycursor.execute("CREATE TABLE linker(user_id varchar(255),email varchar(255)")
+
 mydb = connect_to_db.connect()
 mycursor = mydb.cursor()
 initialise.takeuserdata(mycursor,mydb)
