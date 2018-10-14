@@ -10,9 +10,9 @@ TO run this script just copy all the files in a folder and run the finalproject.
 
 All the other files are supporting modules.
 
-The config.py file has the email address and the email password(may be of any company like gmail,hotmailc etc.)
+The config.py file has the email address and the email password(may be of any company like gmail,hotmailc etc.) of the sender.
 
-The connect_to_db.py file establishes the connection to the database on a server(may be your local host or online)
+The connect_to_db.py file establishes the connection to the database on a server(may be your local host or an online service provider)
 
 The initialise.py file is responsible for taking user input and storing them in the databse.
 
