@@ -7,7 +7,7 @@ Write a python script to send e-mail to the users regarding the status of their 
 
 #solution
 
-TO run this script just copy all the files in a folder and run the finalproject.py file.(One must have python and other necessary modules installed in their system)
+TO run this script just copy all the files in a folder and run the finalproject.py file.(One must have python and other necessary modules installed in their system).Before that ensure that config.py file has your email-address and its password and also lesssecureapps has been turned ON in your google account preferences(for checking that visit this:https://myaccount.google.com/lesssecureapps). Also ensure that connect_to_db.py file has the correct details filled up.For connecting to my database, one can email me
 
 All the other files are supporting modules.
 
