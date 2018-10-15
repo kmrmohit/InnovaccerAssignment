@@ -18,6 +18,7 @@ baselink = "https://www.imdb.com"
 #mycursor.execute("CREATE TABLE appusers(user_id varchar(255),tvseries varchar(255)")
 #mycursor.execute("CREATE TABLE linker(user_id varchar(255),email varchar(255)")
 
+print("WAIT...")
 mydb = connect_to_db.connect()
 mycursor = mydb.cursor()
 initialise.takeuserdata(mycursor,mydb)
