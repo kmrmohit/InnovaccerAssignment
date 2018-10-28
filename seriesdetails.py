@@ -44,13 +44,8 @@ def getseriesdetails(link):
                         try:
                             airtime[1]=mn.getmon(airtime[1])
                             airtime[0]=int(airtime[0])
-                            #print(airtime)
-                            #print(datetime.now().month)
-                            #print(datetime.now().day)
-                            #print(airtime[1]==datetime.now().month)
-                            #print(airtime[0]>=datetime.now().day)
-                            if(airtime[1]==datetime.now().month):
-                                if(airtime[0]>=datetime.now().day):
+                           
+                            if(airtime[1]==datetime.now().month and airtime[0]>=datetime.now().day):
                                     latestday=airtime[0]
                                     latestmon=airtime[1]
                                     break
