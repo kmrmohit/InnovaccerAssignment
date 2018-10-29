@@ -1,5 +1,4 @@
-# InnovaccerAssignment
-SDE-Intern(Platform) assignment project for Innovaccer.
+# WebScraping Project
 
 #problem-statement
 
